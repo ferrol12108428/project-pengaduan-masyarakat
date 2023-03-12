@@ -75,6 +75,7 @@
             </div>
             @endif
             <form action="{{route('store')}}" method="post" enctype="multipart/form-data">
+                <!-- enctype digunakan untuk bisa menginput file tidak hanya inputan -->
                 @csrf
                 <div class="input-card">
                     <label for="">NIK :</label>
